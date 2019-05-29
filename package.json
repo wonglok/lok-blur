@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "netlify dev --live",
-    "lamda": "netlify-lambda serve",
+    "deploy": "git add .; git commit -am \"First commit\"; git push -u origin master;",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
